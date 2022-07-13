@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link 
+      rel="stylesheet" 
+      href="./style.css"
+    />
+  <title>Perímetro de un cuadrado - Curso Práctico de JavaScript de Platzi</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Perímetro de un cuadrado
+    </h1>
+    <p>Usemos javascript para calcularlo</p>
+  </header>
+
+  <section>
+    <form class="form">
+      <label for="InputLado">
+        ¿cuántos centímetros mide cada lado del cuadrado?
+      </label>
+      <input 
+        id="InputLado" 
+        type="number" 
+        class="input" 
+      />
+      <div class="form-group">
+      <button 
+      type="button" 
+      class=" button" onclick="onClickButtonCalcularPerimetroDelCuadrado()">
+        Calcular el perímetro
+      </button>
+      </div>
+      <p id="Result" class="result"></p>
+    </form>
+  </section>
+
+  <script src="./index.js"></script>
+</body>
+</html>
